@@ -1,0 +1,158 @@
+/* 公共样式
+ */
+ 
+@font-face {
+  font-family: "iconfont";
+  src:
+  	url('../assets/mui/iconfont/iconfont.ttf?t=1517033951890') format('truetype');
+  
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-daohanggouwuche:before { content: "\e607"; }
+
+body, .mui-content {
+  background: #fff;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.my-header {
+  background-color: #006699;
+}
+.my-header .mui-title {
+  color: #fff;
+}
+
+.my-header .mui-icon-search {
+  color: #fff;
+}
+/* 底部样式覆盖 */
+.my-footer {
+  background-color: #006699;
+}
+.my-footer .mui-tab-item {
+  color: #fff;
+}
+.my-footer .mui-tab-item.mui-active {
+  color: darkorange;
+}
+
+/* 导航条 */
+.nav-link {
+  padding: 10px;
+}
+.nav-link a {
+  float: left;
+  width: 33.33%;
+}
+/* img后的回车会产生间隙，用veritical-align top 或 display block解决 */
+.nav-link a img {
+  width: 100%;
+  /* vertical-align:top;  */
+  display: block;
+}
+/* 品牌专区 */
+.brand {
+  padding: 0 10px;
+}
+.brand .title {
+  width: 100%;
+}
+.brand ul {
+  overflow: hidden;
+  /* display: block;
+    list-style: none; */
+  padding: 10px 0;
+}
+.brand ul li {
+  float: left;
+  width: 25%;
+}
+.brand ul li a {
+  display: block;
+}
+.brand ul li a img {
+  width: 100%;
+}
+/* 品牌专区 */
+
+/* 运动专区 */
+.product {
+  padding: 0 10px;
+}
+.product .title {
+  width: 100%;
+}
+.product ul {
+  padding: 6px 0;
+}
+.product ul li {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.product ul li a {
+  display: block;
+  padding: 5px;
+  box-shadow: 0 0 5px #ccc;
+ 
+}
+.product ul li a img {
+  width: 100%;
+}
+.product ul li a .name {
+  display: block;
+  font-style: 14px;
+  text-align: center;
+  line-height: 18px;
+  height: 38px;
+  overflow: hidden;
+  color: #8f8f94;
+  padding: 5px;
+}
+
+.product ul li a p {
+  text-align: center;
+  padding-top: 6px;
+}
+.product ul li p span:first-child {
+  color: #f20;
+  padding-right: 2px;
+}
+.product ul li p span:last-child {
+  text-decoration: line-through;
+  padding-left: 2px;
+}
+
+.product ul li .buy-now {
+  display: block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  /* margin-bottom: 10px; */
+  background: #006699;
+  color: #FFF;
+  border-radius: 3px;
+  border: none;
+  font-size: 14px;
+  margin: 0 auto 5px auto;
+}
+
+/* end运动专区 */

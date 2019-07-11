@@ -1,0 +1,18 @@
+.my-content {
+    position: absolute;
+    top: 44px;
+    bottom: 50px;
+    width: 100%;
+}
+.categroy-left {
+    float: left;
+    width: 80px;
+    background-color: blue;
+    height: 100%;
+}
+.categroy-right {
+    
+    margin-left: 80px;
+    background-color: pink;
+    height: 100%;
+}
