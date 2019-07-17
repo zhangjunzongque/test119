@@ -1,6 +1,8 @@
 /* 公共样式
  */
- 
+* {
+  touch-action: none;
+}
 @font-face {
   font-family: "iconfont";
   src:
@@ -52,7 +54,13 @@ a {
 .my-footer .mui-tab-item.mui-active {
   color: darkorange;
 }
-
+/* 轮播图  */
+.mui-slider .mui-slider-group.mui-slider-loop
+{
+    -webkit-transform: translate(-100%, 0px);
+            transform: translate(-100%, 0px);
+}
+/* 轮播图  */
 /* 导航条 */
 .nav-link {
   padding: 10px;

@@ -1,0 +1,53 @@
+.container {
+    padding: 10px;
+}
+
+.container .search {
+    width: 100%;
+    border: 1px solid #006699;
+    height: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.container .search input.text {
+    padding-right: 70px;
+    width: 100%;
+    margin: 0;
+    
+    font-size: 14px;
+    color: #474747;
+    border: none;
+	background: none;
+    height: 30px;
+}
+.container .search input.btn {
+    background: #006699;
+    border: none;
+    width: 60px;
+    color: #fff;
+    border-radius: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 28px;
+}
+
+.history-top {
+	color: #8f8f94;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+.history-top .title {
+    /* background: pink; */
+}
+
+.history-top .clear {
+	font-size: 14px;
+	line-height: normal;
+}
+
+.history-top .mui-icon-trash:before {
+	margin-right: 4px;
+}
